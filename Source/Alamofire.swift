@@ -403,7 +403,7 @@ public func upload(
     )
 }
 
-#if !os(watchOS)
+#if !os(watchOS) && TARGET_iOS_9
 
 // MARK: - Stream Request
 

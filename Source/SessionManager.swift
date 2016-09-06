@@ -612,7 +612,7 @@ open class SessionManager {
         return request
     }
 
-#if !os(watchOS)
+#if !os(watchOS) && TARGET_iOS_9
 
     // MARK: - Stream Request
 
